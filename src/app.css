@@ -6,7 +6,7 @@
     margin: 0;
     background-color: #c1d7ff;
     font-family: 'vera';
-    overflow: hidden; /* Prevent scrollbars from rotation */
+    overflow-x: hidden;
   }
 
   @font-face {

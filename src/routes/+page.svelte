@@ -59,8 +59,8 @@
       </div>
     {/if}
   </div>
-  <div class="tv-filter"></div>
   <div class="sora22">Sora 22</div>
+  <div class="tv-filter"></div>
 </div>
 
 <style>
@@ -69,10 +69,11 @@
     min-width: 100vw;
     background: #16181d;
     position: relative;
-    overflow: hidden;
+    overflow-y: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
   }
 
   .blob {
