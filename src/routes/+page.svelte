@@ -37,9 +37,9 @@
 
   <!-- Main content -->
   <div class="content">
-    <div style="height:70px;display:flex;align-items:center;justify-content:center;flex-direction:column">
+    <div class="intro-center">
       {#if !shown}
-      <p style="color: white;font-size:4rem" out:fade={{duration:180}}>random Ariana Grande lyrics</p>
+        <p class="centered-title" out:fade={{duration:180}}>random Ariana Grande lyrics</p>
         <button 
           on:click={handleClick} 
           out:fade={{duration:180}}
@@ -113,6 +113,25 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .intro-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 1.5rem;
+  }
+
+  .centered-title {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 18px 0;
+    font-family: 'vera', system-ui, sans-serif;
+  }
+
   button {
     background: none;
     color: #fff;
@@ -123,7 +142,6 @@
     box-shadow: 0 4px 32px 0 rgba(0,0,0,0.3);
     font-family: 'vera';
     transition: background 0.2s, transform 0.1s;
-    margin-top: 20px;
     backdrop-filter: blur(2px);
     outline: none;
     z-index: 9999;
