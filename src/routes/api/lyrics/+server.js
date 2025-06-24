@@ -1,4 +1,4 @@
-import lyrics from '$lib/data/lyrics.json';
+import lyrics from '$lib/data/page.json';
 
 export function GET() {
   const random = lyrics[Math.floor(Math.random() * lyrics.length)];
