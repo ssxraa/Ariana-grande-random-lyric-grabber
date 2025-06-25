@@ -39,7 +39,7 @@
   <div class="content">
     <div class="intro-center">
       {#if !shown}
-        <p class="centered-title" out:fade={{duration:180}}>random Ariana Grande lyrics</p>
+        <p class="centered-title" out:fade={{duration:180}}>Random Ariana Grande Lyrics</p>
         <button 
           on:click={handleClick} 
           out:fade={{duration:180}}
