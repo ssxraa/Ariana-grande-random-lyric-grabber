@@ -207,7 +207,7 @@
   }
   .lyric {
     color: #fff;
-    font-size: 8rem;
+    font-size: 2rem;
     font-family: 'vera';
     margin-bottom: 0.2rem;
     text-align: center;
