@@ -69,7 +69,7 @@
     min-width: 100vw;
     background: #16181d;
     position: relative;
-    overflow-y: auto;
+    overflow-y: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,7 +207,7 @@
   }
   .lyric {
     color: #fff;
-    font-size: 2rem;
+    font-size: 8rem;
     font-family: 'vera';
     margin-bottom: 0.2rem;
     text-align: center;
