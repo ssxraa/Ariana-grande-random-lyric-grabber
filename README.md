@@ -6,7 +6,7 @@ https://ariana-grande-random-lyric-grabber.vercel.app/
 
 this site has an api that can be used to fetch these lyrics randomly.
 
-javascrip example :
+javascript example :
 
         fetch('https://ariana-grande-random-lyric-grabber.vercel.app/api/lyrics')
         .then(res => res.json())
