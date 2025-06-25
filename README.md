@@ -1,6 +1,6 @@
 # Ariana grande lyric grabber
 it is my birthday today, so i made this ariana granda lyric grabber/generator.
-it just has a button that when clicked, displays a ranom ariana lyric together with the cover art, picked from the songs in her seven studio albums, the lyric pool was written by me in a json file, there are 113 unique lyric lines.
+it just has a button that when clicked, displays a random ariana lyric together with the cover art, picked from the songs in her seven studio albums, the lyric pool contains 113 unqiue lyrics, written by yours truly (pun VERY intended) in a json file.
 
 https://ariana-grande-random-lyric-grabber.vercel.app/
 
